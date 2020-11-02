@@ -1,0 +1,176 @@
+ <!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url('images/food3.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .signup {
+        width: 400px;
+        height:100%;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding: 20px;
+        margin: 8% auto 0;
+        text-align: center;
+        padding-top: 50px;
+        background-color: gray;
+    }
+    .signup:hover{
+        background-color:aqua;
+    }
+
+    .signup h1 {
+        color: darkorchid;
+        margin-bottom: 30px;
+    }
+
+    .input-box {
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%;
+        border: 1px solid #999;
+        outline: none;
+    }
+
+    button {
+        color: #fff;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 15px;
+        margin: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    input:hover{
+        background-color: indigo;}
+
+    .signup-btn {
+        background-color: rgb(38, 0, 255);
+    }
+
+    .signupbtn {
+        background-color: rgb(0, 26, 255);
+    }
+    .signup-btn:hover {
+        background-color: rgb(51, 255, 0);
+    }
+
+    .signupbtn:hover {
+        background-color: rgb(43, 255, 0);
+    }
+    a {
+        text-decoration: none;
+
+    }
+
+    hr {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .or {
+        background: #fff;
+        width: 30px;
+        margin: -19px auto 10px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp/Login Form</title>
+</head>
+
+<body>
+    <div class="signup">
+        
+        <h1 style="color:blue">Sign Up Now</h1>
+        <form>
+            <input type="email" class="input-box" placeholder="Enter Email" required>
+            <input type="password" class="input-box" placeholder="Enter Password" required>
+
+            <p style="color:blue;"> <span><input type="checkbox" required></span>I agree to the terms of services</p>
+            <p style="color:blue;"><a href="#">Forgot Password</a></p>
+            <button type="button" class="signup-btn">Sign Up</a></button> 
+            
+            <hr>
+            <p class="or">OR</p>
+            
+             <button type="button" class="signupbtn">Login with google</button> 
+            <p>Do you have an account ?<a href="#">Sign in</a></p>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html> 
+<!-- <!DOCTYPE html>
+<html>
+<head><title>Login form</title></head>
+<body>
+<style>
+body{
+
+padding:200px;
+padding-left:550px;
+padding-right:550px;
+background-image:url('http://www.hdbloggers.net/wp-content/uploads/2015/12/City-Street-Wallpapers.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #e7e7e7;
+   
+}
+.login {
+
+  width: 250px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.5);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+
+h1{
+ color:white;
+}
+input{
+ width:250px;
+ height:30px;
+}
+input[type="submit"]{
+   background: #3399ff;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.4s linear;
+}
+</style><center>
+<div class="login">
+<form action="welcome.php" method="POST">
+<h1>Login form</h1>
+<input type="email" name="email" id="email" placeholder="Email" required><br><br>
+<input type="password" name="password" id="password" placeholder="Password" required><br><br>
+<input type="submit" name="submit" id="submit">
+</form>
+</div>
+</body>
+</html> -->
